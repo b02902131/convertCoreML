@@ -2,6 +2,7 @@ import sys
 
 if len(sys.argv) < 3:
     print("Usage: python convertCoreML.py [coreML model name] [onnx model name]")
+    exit()
 else:
     coreML_name = sys.argv[1]
     onnx_name = sys.argv[2]
