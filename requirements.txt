@@ -1,0 +1,6 @@
+git+https://github.com/apple/coremltools
+numpy==1.14.2
+onnxmltools==1.0.0.0
+protobuf==3.5.2.post1
+six==1.10.0
+winmltools==0.1.0.5072
