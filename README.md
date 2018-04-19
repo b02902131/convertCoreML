@@ -3,7 +3,7 @@ Just a simple snippet which input the coreML model and output onnx models
 
 ## Usage
 ```
-> $ python coreml_to_onnx.py [coreML_model] [onnx_model]
+$ python coreml_to_onnx.py [coreML_model] [onnx_model]
 ```
 
 * `coreML_model` : The name of the model you want to convert, ended with ".mlmodel".
