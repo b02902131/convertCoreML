@@ -9,7 +9,7 @@ import sys
 ## Check arguments
 ##################
 
-if len(sys.argv) < 3:
+if len(sys.argv) != 3:
     print("\t (!) Usage: python convertCoreML.py [coreML model name] [onnx model name]")
     print("\t\t * coreML_model : The name of the model you want to convert, ended with \".mlmodel\".")
     print("\t\t * onnx_model \t: The output name of the onnx model.")
