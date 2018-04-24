@@ -22,11 +22,16 @@ if len(coreML_name) <= len(".mlmodel") or coreML_name[-len(".mlmodel"):] != ".ml
     print("\t (!) File name error: ", coreML_name, "is not a coreMLmodel. It's not ended with \".mlmodel\"")
     exit()
 
+print(">> load model from:", coreML_name, "...")
 from coremltools.models.utils import load_spec
 model_coreml = load_spec(coreML_name)
 
+print(">> covert model...")
 from winmltools import convert_coreml
 model_onnx = convert_coreml(model_coreml)
 
+print(">> save model to:", onnx_name, "...")
 from winmltools.utils import save_model
 save_model(model_onnx, onnx_name)
+
+print("Finished!")
