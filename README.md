@@ -1,6 +1,8 @@
 # CoreML to ONNX converter
 Just a simple snippet which input the coreML model and output onnx models
 
+**Ref:** [Convert existing ML models to ONNX](https://docs.microsoft.com/en-us/windows/uwp/machine-learning/conversion-samples)
+
 ## GUI application release
 * 4/24/2018: [Developing version release](https://github.com/b02902131/coreml_to_onnx/releases/tag/v0.1.0)
 
